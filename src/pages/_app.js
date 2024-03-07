@@ -1,12 +1,3 @@
-import React from react;
-import Login from Login; 
-
-const App=()=>{
-	return(
-		<div>
-		  <Login/>
-		</div>
-	)
-}
-
-export default App 
+export default function MyApp({ Component, pageProps }) {
+	return <Component {...pageProps} />;
+ 	}
