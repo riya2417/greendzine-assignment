@@ -1,5 +1,12 @@
-import "@/styles/globals.css";
+import React from react;
+import Login from Login; 
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+const App=()=>{
+	return(
+		<div>
+		  <Login/>
+		</div>
+	)
 }
+
+export default App 
